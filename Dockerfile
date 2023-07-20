@@ -3,6 +3,5 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-ENV PORT=8090
-EXPOSE $PORT
+ENV PORT=7666
 CMD ["node", "server.js"]
