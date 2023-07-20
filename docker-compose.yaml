@@ -1,8 +1,8 @@
 version: "3"
 services:
   simple-server:
-    image: aadityajoshi151/simple-docker-server:latest
-    container_name: simple_server
+    image: simple-docker-server:latest
+    container_name: simple_docker_server
     ports:
       - 7666:7666
     restart: unless-stopped
